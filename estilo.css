@@ -1,0 +1,75 @@
+body{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+body{
+    font-size: 20px;
+}
+
+header{
+    display: flex; /*Defini o layout flexivel para eu alterar os elementos*/
+    align-items: center; /*Alinha os itens verticalmente ao centro*/
+    justify-content: space-between;
+    background-color: rgb(61, 61, 61);
+}
+header .profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 20%;
+    
+}
+
+header .links a{
+text-decoration: none;
+font-weight: bold;
+padding: 50%;
+color: rgb(36, 219, 0);
+font-family: "ghotic";
+}
+
+h2{
+    font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.descricao{
+    text-align: center;
+    margin: 20px;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px
+}
+.bloco{
+    width: 25%;
+    padding: 2%;
+    border-radius: 5%;
+    border: 1px solid #00ff04;
+    background: rgba(247, 0, 0, 0.2);
+}
+.falacomigo{
+    text-align: center;
+    margin: 20px;
+}
+form{
+    display: inline-block;
+    text-align: left;
+}
+form label{
+    display: block;
+    margin: 5px 0;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
